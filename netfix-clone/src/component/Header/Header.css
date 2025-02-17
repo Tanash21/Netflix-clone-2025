@@ -1,0 +1,42 @@
+.header-outer-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148,132,132);
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: brown; */
+}
+
+.header-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* list-style: none; */
+}
+.header-left ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-right ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.header-right ul li {
+    list-style-type: none;
+}
+.header-left ul li {
+    list-style-type: none;
+}
