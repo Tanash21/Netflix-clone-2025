@@ -1,16 +1,16 @@
 import React from "react";
 import "./Footer.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 const Footer = () => {
   return (
     <div className="fooer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icons">
           <FacebookOutlinedIcon />
-          <InstagramIcon/>
-          <YouTubeIcon/>
+          <InstagramIcon />
+          <YouTubeIcon />
         </div>
 
         <div className="footer_data">
@@ -23,32 +23,30 @@ const Footer = () => {
           </div>
           <div>
             <ul>
-                <li>Help Center</li>
-                <li>Jobs</li>
-                <li>Cookie Preference </li>
+              <li>Help Center</li>
+              <li>Jobs</li>
+              <li>Cookie Preference </li>
             </ul>
           </div>
           <div>
             <ul>
-                <li>Gift Cards</li>
-                <li>Terms Of Use</li>
-                <li>Corporate Information</li>
+              <li>Gift Cards</li>
+              <li>Terms Of Use</li>
+              <li>Corporate Information</li>
             </ul>
           </div>
           <div>
             <ul>
-                <li>Midea Center</li>
-                <li>Privacy</li>
-                <li>Contact Us</li>
+              <li>Midea Center</li>
+              <li>Privacy</li>
+              <li>Contact Us</li>
             </ul>
           </div>
         </div>
         <div className="service_code">
-            <p>Service code</p>
+          <p>Service code</p>
         </div>
-        <div className="copy_write">
-            :1997 2025 Netflix, inc.
-        </div>
+        <div className="copy_write">&copy; 1997 2025 Netflix, inc.</div>
       </div>
     </div>
   );
